@@ -1,0 +1,5 @@
+cmd = runs if you don't specify anything as arguments while running the docker image
+cmd = anything that you specify as argument replaces the ENTIRE cmd command
+
+entrypoint = runs irrespective whether or not you specify any argument while running the docker image
+entrypoint = whatever you specify as argement gets APPENDED to the entrypoint command
